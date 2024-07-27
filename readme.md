@@ -118,3 +118,10 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Namecard | BG hero | https://genshin-impact.fandom.com/wiki/Clorinde/Gallery |
+| Characters | Portrait Image | https://genshin.hoyoverse.com/en/character/Fontaine?char=12 |
+| Google Fonts | font styling | https://fonts.google.com |
+| Honey Hunter | Assets | https://gensh.honeyhunterworld.com |
+| Constellation BG Genshin | BG | https://www.deviantart.com/kaerralind/art/Genshin-Impact-Constellation-Template-Electro-879565738 |
+| Electro icon HD | Asset | https://www.deviantart.com/anotheraizen14/art/Genshin-Impact-Electro-862358240 |
+| Clorinde Attacks | Asset | https://genshin-impact.fandom.com/wiki/Clorinde/Gallery, https://x.com/GenshinImpact/status/1796030874166984715|
