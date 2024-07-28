@@ -1,0 +1,227 @@
+body {
+    overflow: hidden;
+    margin:0;
+}
+
+.header {
+    background-color: black;
+    padding:2%;
+    z-index: 99999;
+    position: relative;
+}
+.nav {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    a {    text-decoration: none; font-family: sans-serif; color:white;
+    }
+}
+
+.nav a:hover {
+    color:gray;
+}
+
+
+.clorindetext, .sigewinnetext {
+    position: absolute;
+    transform: translateX(-50%, -50%);
+}
+
+.select {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    padding:5px;
+    height:80vh;
+    align-content: center;
+    justify-items: center;
+}
+
+.clorinde, .sigewinne {
+    border-radius: 100%;
+    height:500px;
+    width:500px;
+    position: relative;
+    background-size: 115%;
+    background-position: center;
+}
+
+.clorinde {
+    background-image: url("../img/clorinde_crop.png");
+    margin-left: 200px;
+}
+
+.sigewinne {
+    background-image: url("../img/sigewinne_crop.png");
+    margin-right: 200px;
+}
+
+.clorindetext, .sigewinnetext {
+    top:130px;
+    left:-95px;
+    opacity: 0;
+    transform:translateX(-2%);
+    transition: 500ms ease;
+    transform-origin: bottom left;
+}
+
+.feat {
+    position: absolute;
+    z-index: 1000;
+    pointer-events: none;
+    line-height: 40%;
+    bottom:0;
+    padding:2%;
+    font-size: 1.4rem;
+    mix-blend-mode:difference ;
+    color:white;
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    h2 {
+        font-family: sans-serif;
+        font-weight: 400;
+        margin: 0;
+    }
+}
+
+.sigewinnetext {
+    margin-left: -9px;
+}
+
+
+.clorinde-text {
+    font-size: 5em;
+    fill: #D4D0FF;
+    font-family: sans-serif;
+    }
+
+    
+
+.sigewinne-text {
+    font-size: 5em;
+    fill: #E7C585;
+    font-family: sans-serif;
+    }
+
+.overlay img{
+    opacity: 0;
+    position: absolute;
+    transform: translateX(-19%);
+    margin-top: -80px;
+    transition: 500ms ease-out;
+    pointer-events: none;
+    filter: drop-shadow(4px 4px 10px white);
+}
+
+.clorinde .overlay img {
+    margin-left: -50px;
+    margin-top: 1px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 42%;
+}
+
+.sigewinne .overlay img {
+    margin-left: 33px;
+    margin-top: -4px;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 60%;
+}
+
+.clorinde:hover .overlay img {
+    opacity:1;
+    scale:1.08;
+    z-index: 10;
+}
+
+.clorinde:hover .clorindetext {
+    opacity: 1;
+    transform:translateX(0);
+    z-index: 10;
+}
+
+.sigewinne:hover .overlay img {
+    opacity:1;
+    scale:1.05;
+    z-index: 10;
+}
+
+.sigewinne:hover .sigewinnetext {
+    opacity: 1;
+    transform:translateX(0);
+    z-index: 10;
+}
+
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200vw;
+    height: 200vh;
+    transition: opacity 0.5s ease;
+    z-index: -1;
+    margin: 0;
+    pointer-events: none;
+}
+
+.default-bg {
+    background: linear-gradient(#ff7e5f, #feb47b);
+    opacity: 1;
+}
+
+.darkpurple-violet {
+    background: linear-gradient(#d5a2ff, #000d71);
+    opacity: 0;
+    top:-40%;
+    left:-50%;
+}
+
+.lightblue-pink {
+    background: linear-gradient(rgb(29, 198, 255), rgb(255, 14, 134));
+    opacity: 0;
+    top:-40%;
+    left:-200%;
+}
+
+
+.circle1:hover .darkpurple-violet {
+    opacity: 1;
+}
+
+.circle2:hover .lightblue-pink {
+    opacity: 1;
+}
+
+
+@keyframes scrollBackground {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-12.5%);
+    }
+}
+
+
+.texture {
+    position: absolute;
+    height: 100vh;
+    width:200vw;
+    background-image: url('../img/moroccan-flower.png');
+    background-size: 50%;
+    animation: scrollBackground 4s linear infinite;
+    mix-blend-mode: overlay;
+}
+
+.circle1, .circle2 {
+    transition: 1s ease;
+}
+
+.select:hover .circle:not(:hover) {
+    filter: blur(5px);
+}
+
+.select .circle:hover {
+    filter: none;
+}

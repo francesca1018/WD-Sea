@@ -117,7 +117,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Namecard | BG hero | https://genshin-impact.fandom.com/wiki/Clorinde/Gallery |
 | Characters | Portrait Image | https://genshin.hoyoverse.com/en/character/Fontaine?char=12 |
 | Google Fonts | font styling | https://fonts.google.com |
@@ -125,3 +124,9 @@ WD-ProjectName
 | Constellation BG Genshin | BG | https://www.deviantart.com/kaerralind/art/Genshin-Impact-Constellation-Template-Electro-879565738 |
 | Electro icon HD | Asset | https://www.deviantart.com/anotheraizen14/art/Genshin-Impact-Electro-862358240 |
 | Clorinde Attacks | Asset | https://genshin-impact.fandom.com/wiki/Clorinde/Gallery, https://x.com/GenshinImpact/status/1796030874166984715|
+| Genshin Reddit | Assets | https://www.reddit.com/user/genshinimpact/ |
+| Figma | Layout Plan | https://www.figma.com/design/dNZUooFr0YmQJaAumunSwB/we-bol?node-id=0-1&t=zF7FwnWTmhXlOuR2-1 |
+| Bootstrap Pills | Pills | https://mdbootstrap.com/docs/standard/navigation/pills/ |
+| SVG TextPath | textpath | https://www.w3schools.com/graphics/svg_textpath.asp |
+| Textpath code | Efficient Textpath | https://vanseodesign.com/web-design/svg-text-on-pathpart-2/ |
+| Subtle Patterns | BG texture | https://www.toptal.com/designers/subtlepatterns/ |
