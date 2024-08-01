@@ -130,3 +130,4 @@ WD-ProjectName
 | SVG TextPath | textpath | https://www.w3schools.com/graphics/svg_textpath.asp |
 | Textpath code | Efficient Textpath | https://vanseodesign.com/web-design/svg-text-on-pathpart-2/ |
 | Subtle Patterns | BG texture | https://www.toptal.com/designers/subtlepatterns/ |
+| Scroll Triggered Animation Style Queries | Animation | https://ryanmulligan.dev/blog/scroll-triggered-animations-style-queries/ |
