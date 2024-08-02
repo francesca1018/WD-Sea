@@ -58,6 +58,7 @@ Genshin character themed features page.</div>
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details.
+Features page design with Genshin theme.
 
 Guiding Question:
 - What is the project
