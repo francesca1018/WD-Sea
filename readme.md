@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/francesca1018/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/clorinde.png"
     width="130" height="100">
@@ -20,7 +20,7 @@ Genshin character themed features page.</div>
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=francesca1018/WD-Seatwork4)
 
 ---
 
