@@ -73,10 +73,9 @@ HTML CSS Bootstrap
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
-
+- MultiPage Website
+- Bootstrap Carousel
+- Animation-Timeline and hover animations
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
